@@ -1,5 +1,5 @@
 # Web Server Log Data
-The data set we're using is an anonymized Web server log file from a public relations company whose clients were DVD distributors. Each line in the file represents a hit to the Web server. It includes the IP address which accessed the site, the date and time of the access, and the name of the page which was visited. It can be downloaded [here](/access_log.gz)
+The data set we're using is an anonymized Web server log file from a public relations company whose clients were DVD distributors. Each line in the file represents a hit to the Web server. It includes the IP address which accessed the site, the date and time of the access, and the name of the page which was visited. It can be downloaded [here](./access_log.gz)
 
 The logfile is in [Common Log Format](http://en.wikipedia.org/wiki/Common_Log_Format):
 
@@ -21,6 +21,6 @@ Where:
 ## List of Questions
 
 Write some Mappers and Reducers to answer the following questions:  
-1. [Find the number of hits for each different files on the website.](/01-hits-to-page)
-2. [Find the number of hits to the site made by each different IP address.](/02-hits-from-ip)
-3. [Find the most popular file on the website](/03-most-popular): that is, the file whose path occurs most often in access_log. Your reducer should output the file's path and the number of times it appear in the log.
+1. [Find the number of hits for each different files on the website.](./01-hits-to-page)
+2. [Find the number of hits to the site made by each different IP address.](./02-hits-from-ip)
+3. [Find the most popular file on the website](./03-most-popular): that is, the file whose path occurs most often in access_log. Your reducer should output the file's path and the number of times it appear in the log.
