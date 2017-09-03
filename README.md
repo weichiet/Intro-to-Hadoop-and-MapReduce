@@ -6,6 +6,6 @@ The Apache™ Hadoop® project develops open-source software for reliable, scala
 
 ## Projects
 The projects are organized according to the dataset used in the course:  
-1. Sales data
+1. [Sales data](/sales_data)
 2. Web server log
 3. Forum data
