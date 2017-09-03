@@ -1,5 +1,5 @@
 # Web Server Log Data
-The data set we're using is an anonymized Web server log file from a public relations company whose clients were DVD distributors. Each line in the file represents a hit to the Web server. It includes the IP address which accessed the site, the date and time of the access, and the name of the page which was visited. It can be downloaded [here](./access_log.gz)
+The data set we're using is an anonymized Web server log file from a public relations company whose clients were DVD distributors. Each line in the file represents a hit to the Web server. It includes the IP address which accessed the site, the date and time of the access, and the name of the page which was visited. It can be downloaded [here](https://www.dropbox.com/s/27r458xpouusqc9/access_log.gz?dl=0)
 
 The logfile is in [Common Log Format](http://en.wikipedia.org/wiki/Common_Log_Format):
 

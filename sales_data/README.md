@@ -1,6 +1,6 @@
 # Sales Data
 
-The dataset can be downloaded [here](./purchases.gz).
+The dataset can be downloaded [here](https://www.dropbox.com/s/27r458xpouusqc9/access_log.gz?dl=0).
 
 Format of each line in the  is:
 ```

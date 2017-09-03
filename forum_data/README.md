@@ -2,7 +2,7 @@
 
 This particular dataset was taken from the Udacity forums the first months after the launch of this course. Udacity forums were run on a free, opensource software called OSQA, which was designed to be similar to the popular StackOverflow forums. The basic structure is - the forum has nodes. All nodes have a body and author_id. Top level nodes are called questions, and will also have a title and tags. Questions can have answers. Both questions and answers can have comments.
 
-The dataset can be downloaded [here](./forum_data.tar.gz). There are 2 files in the dataset. The first is "forum_nodes.tsv", and that contains all forum questions and answers in one table. It was exported from the RDBMS by using tab as a separator, and enclosing all fields in doublequotes. You can find the field names in the first line of the file "forum_node.tsv". The ones that are the most relevant to the task are:
+The dataset can be downloaded [here](https://www.dropbox.com/s/ib0j7xkx88m0i0r/forum_data.tar.gz?dl=0). There are 2 files in the dataset. The first is "forum_nodes.tsv", and that contains all forum questions and answers in one table. It was exported from the RDBMS by using tab as a separator, and enclosing all fields in doublequotes. You can find the field names in the first line of the file "forum_node.tsv". The ones that are the most relevant to the task are:
 
 * "id": id of the node
 * "title": title of the node. in case "node_type" is "answer" or "comment", this field will be empty
