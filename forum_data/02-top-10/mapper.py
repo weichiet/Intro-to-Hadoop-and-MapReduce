@@ -4,6 +4,21 @@ Your mapper function should print out 10 lines containing longest posts, sorted 
 ascending order from shortest to longest.
 Please do not use global variables and do not change the "main" function.
 """
+
+# Expected output:
+'''
+""	""	""	""	"22"	""
+""	""	""	""	"333"	""
+""	""	""	""	"4444"	""
+""	""	""	""	"55555"	""
+""	""	""	""	"666666"	""
+""	""	""	""	"7777777"	""
+""	""	""	""	"88888888"	""
+""	""	""	""	"999999999"	""
+""	""	""	""	"1000000000"	""
+""	""	""	""	"11111111111"	""
+'''
+
 import sys
 import csv
 
